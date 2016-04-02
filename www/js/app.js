@@ -129,15 +129,15 @@ angular.module('starter', ['ionic', 'starter.controllers','starter.notestore','s
       }
     })  
   
-    .state('app.settings', {
-      url: '/settings',
-      views: {
-        'handbook': {
-          templateUrl: 'templates/settings.html',
-          controller: 'SettingsController' 
-        }
-      }
-    })
+//    .state('app.settings', {
+//      url: '/settings',
+//      views: {
+//        'handbook': {
+//          templateUrl: 'templates/settings.html',
+//          controller: 'SettingsController' 
+//        }
+//      }
+//    })
   
       .state('app.about', {
       url: '/about',
